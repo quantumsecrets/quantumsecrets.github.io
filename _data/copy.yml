@@ -1,0 +1,14 @@
+# These variables are available in the templates via {{ site.data.copy.myvariable }}.
+
+title: Quantum Secrets
+email: thequantumsecret@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to Quantum Secrets, the most enigmatic and cutting-edge quantum 
+  company in the world. We specialize in revolutionary quantum technology, 
+  pushing the limits of what's possible. We won't tell you much more than that, as we can't reveal our secrets to just anyone.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://quantumsecrets.github.io"
+
+# Careers
+benefits_2_desc: You'll work in a supportive and collaborative environment that fosters creativity and innovation.
+
