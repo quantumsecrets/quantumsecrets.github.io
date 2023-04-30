@@ -27,10 +27,10 @@ plugins:
 # These settings were copied and modified from https://github.com/dieghernan/chulapa/blob/master/_config.yml
 
 # With remote theme
-#remote_theme: dieghernan/chulapa
+remote_theme: dieghernan/chulapa
 
 # With gem based method do this instead
-theme: chulapa-jekyll
+#theme: chulapa-jekyll
 # And at this to your Gemfile
 # gem install 'chulapa-jekyll'
 
