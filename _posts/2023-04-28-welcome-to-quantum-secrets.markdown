@@ -20,4 +20,3 @@ We believe that the greatest breakthroughs in quantum technology are achieved th
 If you're interested in joining us on our mission to unlock the secrets of the universe, we invite you to explore our website and learn more about our work. We're always looking for talented and dedicated individuals to join our team, and we believe that together, we can make groundbreaking discoveries that have the potential to change the world.
 
 At Quantum Secrets, our secret team is committed to pushing the boundaries of what's possible in quantum technology and unlocking the mysteries of the universe. Join us on our mission to make a difference in the world.
-
