@@ -7,6 +7,9 @@ title   : Quantum Secrets
 subtitle : A revolutionary company that came out of nowhere
 header_type : splash
 header_img : 'https://images.unsplash.com/photo-1682754089073-59443f56234f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80'
+photo_credit_name : "Kristaps Ungurs"
+photo_credit_url : "https://unsplash.com/@kristapsungurs"
+
 cards:
     - icon  : "fa fa-user-tie" 
       title : "Inconclusive Value"
@@ -17,6 +20,10 @@ cards:
     - icon  : "fa fa-user-tie" 
       title : "Ambiguous Offerings"
       description   : With so many companies in the quantum space, it can be difficult to differentiate between their offerings and understand their unique value propositions. At Quantum Secrets, we strive to be clear and transparent about our own offerings, which starts with making sure that marketing actually understands what we're talking about. 
+project_links:
+    - url: /podcast/ 
+      icon: fa fa-microphone    
+      label: Listen Now      
 
 ---
 
@@ -25,13 +32,10 @@ cards:
             <h2 class="display-4">{{ card.title }}</h2>
             <p class="lead">{{ card.description }}</p>
 </div>
+
 {% endfor %}
-
-
-
       
-
-      
+{% include /custom/custom_podcastcta.html %}
 
 
        

@@ -2,32 +2,26 @@
 layout: indexcategory
 include_collection: posts
 title:  "Quantum Secrets"
-subtitle: "A podcast trying to figure out why we quantum"
+subtitle: "A podcast trying to figure out how and when we'll quantum"
 permalink: /podcast/
-#og_image: /assets/img/site/banner-podcast.png
+#header_type : splash
+header_img : "https://images.unsplash.com/photo-1516450494832-d1ba9fc12c74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80"
+photo_credit_name : Philip Brown
+photo_credit_url : "https://unsplash.com/@nebirdsplus"
+
+project_links:
+    - url: "mailto:thequantumsecret+podcast@gmail.com?subject=Proposing%20a%20guest..."
+      icon: far fa-comments         # Fontawesome icon code1
+      label: Request a Guest       # Label on button 1
 ---
 
 
+<br>
+Welcome to the Quantum Secrets podcast, where we explore the world of quantum technologies and the people behind them. Our interviews with leaders from various quantum companies are intended to uncover valuable insights that are hard to find elsewhere.
 
-Welcome to the Quantum Secrets podcast, where we dive deep into the world of quantum technologies. We're excited to bring you interviews with leaders from a variety of quantum companies, where we try to get them to tell us their secrets.
+The quantum industry is full of groundbreaking technologies that have the potential to revolutionize the world, yet there are significant challenges to overcome on the path to realizing these solutions. Our podcast takes an open and honest approach to discuss these challenges and create a culture of collaboration.
 
-As many of you know, the quantum field is full of groundbreaking technologies and solutions that have the potential to revolutionize the world. However, there are also significant challenges and gaps that need to be addressed to make these solutions a reality. Our goal with this podcast is to ask the tough questions that many are afraid to confront, in the spirit of learning and growth.
-
-Through open and honest dialogue with our guests, we hope to create a culture of collaboration, where we can all learn from each other and drive progress in the different quantum fields. If we don't improve how we communicate fundamental question
-
-So, join us as we uncover the secrets of this exciting and rapidly evolving industry.
-
-<br><br>
-
-
-
-
-<div class="card border-light mb-3" >
-              <div class="card-body">
-                 <h5 class="card-title">Request a Guest</h5>
-                 <p class="card-text">Do you know of a company in the quantum technology space that is proposing a technology, solution, or approach that you don't think is viable? Let us know and we'll do our best to get them on the podcast so that they can help us better understand their point of view.<br></p>
-              </div>
-           </div>
+We strive to ask the questions that others may avoid, in order to foster growth and learning in the quantum community. Join us as we uncover the secrets of this rapidly evolving industry.
 
 <br>
 <hr class="my-3">

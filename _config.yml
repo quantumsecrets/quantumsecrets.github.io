@@ -54,15 +54,15 @@ timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/con
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
 twitter_site            :     #Avoid @
 author:
-  name                  :     # Name Surname Company
-  avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
-  location              :     # New York, USA
+  name                  :     Quantum Secrets # Name Surname Company
+  avatar                :     /assets/img/quantumsecrets_logo_w.svg # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
+  location              :     "New York, USA"
   links:
-    - url:  thequantumsecret+webfooter@gmail.com #A link or email: https://twitter.com/jack, mail@example.com
-      icon: fab fa-linkedin # A Fontawesome code: fab fa-twitter - see https://fontawesome.com/
+    - url:  thequantumsecret+post@gmail.com #A link or email: https://twitter.com/jack, mail@example.com
+      icon: fas fa-envelope # A Fontawesome code: fab fa-twitter - see https://fontawesome.com/
       label: Email # A Label for the icon: Twitter
     - url:  https://www.linkedin.com/in/schnabel/ # Another link
-      icon: fa-thin fa-user-tie # Another FontAwesome code
+      icon: fab fa-linkedin # Another FontAwesome code
       label: LinkedIn # Another label
 
 fa_version: #default ["6"] Use 6 or 5
@@ -71,8 +71,8 @@ fa_v4_support: #Bool Add FontAwesome 4 support
 # Web tracking - Google services https://analytics.google.com/analytics/web/
 # gtag_id is the preferred option, see https://developers.google.com/analytics/devguides/collection/gtagjs/migration?hl=en
 # analytics provided for backwards compatibility
-gtag_id                 :
-analytics_id            :
+#gtag_id                 :
+#analytics_id            :
 
 # Search providers
 # Available free search engines:
@@ -137,7 +137,7 @@ navbar:
   brand:
     title   :  Quantum Secrets # Title in navbar
     url     :  # default["url/baseurl"]
-    img     :  # An small image, try 30x30px
+    img     :  /assets/img/quantumsecrets_logo_w.svg # An small image, try 30x30px
   nav:
   - title   : About 
     url     : /about/ 
@@ -158,15 +158,15 @@ navbar:
 footer:
   links:
     - label : LinkedIn
-      icon  : "fa fa-user-tie" 
+      icon  : "fab fa-linkedin" 
       url   : https://www.linkedin.com/in/schnabel/ 
     - label : Contact
-      icon  : "fa fa-envelope" 
+      icon  : "fas fa-envelope" 
       url   : thequantumsecret+webfooter@gmail.com
     - label: "RSS"
-      icon: "fa fa-rss"
+      icon: "fas fa-rss"
       url:  "./atom.xml"      
-  copyright: '&copy; 2023 Quantum Secrets<br><p class="small">Splash photo by <a href="https://unsplash.com/@kristapsungurs">Kristaps Ungurs</a></p>'
+  copyright: '&copy; 2023 Quantum Secrets'
 
 
 # C. Theme Settings
