@@ -26,6 +26,19 @@ The quantum industry is full of groundbreaking technologies that have the potent
 
 We strive to ask the questions that others may avoid, in order to foster growth and learning in the quantum community. Join us as we uncover the secrets of this rapidly evolving industry.
 
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '427412');
+</script>
+<!-- End MailerLite Universal -->
+
+<br>
+<div class="ml-embedded" data-form="auUYyB"></div>
+
 <br>
 <hr class="my-3">
 <br>
