@@ -5,7 +5,7 @@
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2023-05-01 18:01:30 -0400 -->
+    <!-- Page build 2023-05-04 11:37:09 -0400 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
         {
@@ -18,9 +18,9 @@
         "@id": "http://localhost:4000/search/"
       },
       "headline": "Search",
-      "image": "http://localhost:4000/assets/img/quantumsecrets_logo_w.svg",
-      "datePublished": "2023-05-01T18:01:30-04:00",
-      "dateModified": "2023-05-01T18:01:30-04:00",
+      "image": "http://localhost:4000/assets/img/quantumsecrets_b_300.png",
+      "datePublished": "2023-05-04T11:37:09-04:00",
+      "dateModified": "2023-05-04T11:37:09-04:00",
       "author": {
         "@type": "Person",
         "name": "Quantum Secrets"
@@ -38,7 +38,7 @@
         "url": "http://localhost:4000/",
         "logo": {
           "@type": "ImageObject",
-          "url": "http://localhost:4000/assets/img/quantumsecrets_logo_w.svg"
+          "url": "http://localhost:4000/assets/img/quantumsecrets_b_300.png"
         }
       }
     }
@@ -107,7 +107,7 @@
     <meta name="author" content="Quantum Secrets" >
     <meta name="copyright" content="Quantum Secrets" >
     <meta name="description" content="">
-    <meta name="thumbnail" content="http://localhost:4000/assets/img/quantumsecrets_logo_w.svg" >
+    <meta name="thumbnail" content="http://localhost:4000/assets/img/quantumsecrets_b_300.png" >
     <meta name="robots" content="index, follow"><meta name="keywords" content="">
     
     <!-- OpenGraph -->
@@ -117,7 +117,7 @@
     <meta property="og:type" content="website" >
     <meta property="og:description" content="" >
     <meta property="og:locale" content="en-US" >
-    <meta property="og:image" content="http://localhost:4000/assets/img/quantumsecrets_logo_w.svg" >
+    <meta property="og:image" content="http://localhost:4000/assets/img/quantumsecrets_b_300.png" >
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image"><!-- start custom head snippets -->
 
@@ -142,7 +142,17 @@
     <link id="csshigh" rel="stylesheet" href="http://localhost:4000/assets/css/highlighter.css" >
     <!-- Custom css -->
     <link rel="stylesheet" href="http://localhost:4000/assets/css/custom.css" >
-      <!-- start custom head snippets -->
+      
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W6NX353187"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W6NX353187');
+</script>
+<!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
@@ -192,9 +202,18 @@
 </header>
 <main class="container-lg pt-2 pb-5 flex-fill">
     <div class="row">
-        <div class="col-lg-8 offset-lg-2 my-auto text-center"><div id="searchbox"></div>
-<div id="powered-by" class="text-right mt-2"></div>
-<div id="hits" class="mt-3 text-left"></div></div>
+        <div class="col-lg-8 offset-lg-2 my-auto text-center"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id" class="input-group ">
+  <label class="sr-only" for="search"> Search </label>
+  <input type="search" id="cse-search-input-box-id" class="form-control rounded" placeholder="Search... (intro)"/>
+  </form>
+  <p class="text-right small mt-1"><img src="https://www.google.com/cse/static/images/1x/en/branding.png" class="gcsc-branding-img-noclear float-right" srcset="https://www.google.com/cse/static/images/2x/en/branding.png 2x" alt="enhanced by Google"></p>
+
+<div id="results" class="results mt-3 text-left">
+<gcse:searchresults-only></gcse:searchresults-only>
+</div>
+ 
+                
+</div>
     </div>
 </main><!-- Footer -->
   <footer class="footer-chulapa text-center mt-0 pt-3">
@@ -224,9 +243,7 @@
 <!-- Footer -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4"></script> 
-<script src="http://localhost:4000/assets/js/algolia/algolia-search.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script><script src="http://localhost:4000/assets/js/google/google-search.js"></script>
 
 <!-- start custom scripts to be placed at the bottom of the page -->
 

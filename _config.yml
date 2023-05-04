@@ -52,7 +52,7 @@ words_per_minute        :     #default[200]
 timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # SEO
-og_image                :     #default[author.avatar (see below)] or [github-avatar]
+og_image                :     /assets/img/quantumsecrets_b_300.png #default[author.avatar (see below)] or [github-avatar]
 twitter_site            :     #Avoid @
 author:
   name                  :     Quantum Secrets # Name Surname Company
@@ -79,41 +79,17 @@ gtag_id                 : 'G-W6NX353187'
 # - algolia v4 https://www.algolia.com/ - needs further configuration
 # - google custom search engine https://cse.google.es/
 search:
-  provider              : algolia #Select a provider for enable search: lunr, algolia, google
+  provider              : google #Select a provider for enable search: lunr, algolia, google
   label                 :  #default ["Search"] Text on navbar when search is enabled
   landing_page          :  #default ["/search"] Link on navbar
   lunr_maxwords         :  #default [30] lunr only - May slow down your site build
   algolia_logo          :  true #Displays algolia logo. Should be set to true if you are on a community plan, otherwise false.
 
-#google_cse_id: #Your cse id
-# This site uses jekyll-algolia plugin https://community.algolia.com/jekyll-algolia/
-# Recommended additional configuration provided, could be modified. Add your own parameters
-algolia:
-  application_id        : IJ9EJ7MGSB #As per your Algolia account
-  index_name            : quantum_secrets #As per your Algolia account
-  search_only_api_key   : 04200209c9a5213ec869bff6eea9f29d #As per your Algolia account
-  files_to_exclude:         #Optional
-    - _layouts/*.html
-    - _includes/*.html
-    - docs/_pages/*
-    - docs/blog/*
-  extensions_to_index:      #Optional
-    - html
-    - md
-  searchableAttributes:     #Optional
-    - title
-    - headings
-    - unordered(content)
-    - unordered(subtitle)
-    - unordered(categories)
-    - unordered(collection)
-    - unordered(tags)
-#  customRanking:            #Optional
-#    - desc(include_on_search)
-#    - desc(title)
-#    - desc(content)
-#    - desc(subtitle)
+#Google search settings
+google_cse_id: c5e579fa7b97b4f29 #Your cse id
 
+
+#Comments settings
 comments:
   provider:         #Enable comments via Disqus, giscus, Cactus.chat, cusdis
   disqus_shortname: #Your site id : check your address https://{{ disqus.shortname }}.disqus.com/admin/

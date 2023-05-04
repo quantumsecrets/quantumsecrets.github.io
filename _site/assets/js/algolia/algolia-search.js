@@ -1,6 +1,6 @@
 const algoliaClient = algoliasearch(
-  'IJ9EJ7MGSB',
-  '04200209c9a5213ec869bff6eea9f29d'
+  '',
+  ''
 );
 
 const searchClient = {
@@ -20,7 +20,7 @@ const searchClient = {
 };
 
 const search = instantsearch({
-  indexName: 'quantum_secrets',
+  indexName: '',
   searchClient,
 });
 

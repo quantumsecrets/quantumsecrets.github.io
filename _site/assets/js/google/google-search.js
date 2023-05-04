@@ -1,5 +1,5 @@
 (function() {
-    var cx = '';
+    var cx = 'c5e579fa7b97b4f29';
     var gcse = document.createElement('script');
     gcse.async = true;
     gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;

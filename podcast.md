@@ -9,10 +9,13 @@ header_img : "https://images.unsplash.com/photo-1516450494832-d1ba9fc12c74?ixlib
 photo_credit_name : Philip Brown
 photo_credit_url : "https://unsplash.com/@nebirdsplus"
 
-project_links:
-    - url: "mailto:thequantumsecret+podcast@gmail.com?subject=Proposing%20a%20guest..."
-      icon: far fa-comments         # Fontawesome icon code1
-      label: Request a Guest       # Label on button 1
+#Included to turn on social sharing
+show_sociallinks  : true
+
+#project_links:
+#    - url: "mailto:thequantumsecret+podcast@gmail.com?subject=Proposing%20a%20guest..."
+#      icon: far fa-comments         # Fontawesome icon code1
+#      label: Request a Guest       # Label on button 1
 ---
 
 
