@@ -45,7 +45,7 @@ description             : >- # this means to ignore newlines until "baseurl:"
   Welcome to Quantum Secrets, the most enigmatic and cutting-edge quantum 
   company in the world. We specialize in revolutionary quantum technology, 
   pushing the limits of what's possible. We won't tell you much more than that, as we can't reveal our secrets to just anyone.
-url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
+url                     :     'https://quantumsecrets.dev' #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
 baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
 words_per_minute        :     #default[200]
 timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
