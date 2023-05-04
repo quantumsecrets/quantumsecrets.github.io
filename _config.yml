@@ -19,6 +19,7 @@
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-algolia
 
 
 # Chulapa docs: https://dieghernan.github.io/chulapa/docs/02-config
