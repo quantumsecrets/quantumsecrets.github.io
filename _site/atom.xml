@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
-	<updated>2023-05-04T15:22:56-04:00</updated>
+	<updated>2023-05-04T19:54:18-04:00</updated>
 	<id>http://localhost:4000/atom.xml</id>
 	<title>Quantum Secrets</title>
 	
@@ -40,7 +40,7 @@
 		</content>
 		
 		<author>
-			<name>Quantum Secrets</name><uri>http://localhost:4000/thequantumsecret+post@gmail.com</uri></author>
+			<name>Quantum Secrets</name><uri>http://localhost:4000/contact@quantumsecrets.dev</uri></author>
 		<summary type="html">&lt;p&gt;Quantum Secrets, yet another revolutionary quantum company that came out of nowhere, has launched! We’re also launching a podcast to try to figure out the secrets behind what these other quantum companies are doing…&lt;/p&gt;
 
 </summary>

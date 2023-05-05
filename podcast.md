@@ -5,9 +5,9 @@ title:  "Quantum Secrets"
 subtitle: "A podcast trying to figure out how and when we'll quantum"
 permalink: /podcast/
 #header_type : splash
-header_img : "https://images.unsplash.com/photo-1516450494832-d1ba9fc12c74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80"
-photo_credit_name : Philip Brown
-photo_credit_url : "https://unsplash.com/@nebirdsplus"
+header_img : "https://images.unsplash.com/photo-1472145246862-b24cf25c4a36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
+photo_credit_name : Jeremy Thomas
+photo_credit_url : "https://unsplash.com/@jeremythomasphoto"
 
 #Included to turn on social sharing
 show_sociallinks  : true
@@ -28,11 +28,11 @@ We strive to ask the questions that others may avoid, in order to foster growth 
 
 <!-- MailerLite Universal -->
 <script>
-    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-    ml('account', '427412');
+      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+      .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+      n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+      (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+      ml('account', '427412');
 </script>
 <!-- End MailerLite Universal -->
 

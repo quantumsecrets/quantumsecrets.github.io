@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Introducing Quantum Secrets"
 date:   2023-04-28 17:37:13 -0400
 tags: [quantum-secrets, update]
@@ -11,11 +11,11 @@ photo_credit_url : https://unsplash.com/@edwardhowellphotography
 
 #Included for any cards being shown
 show_date         : true
-show_related      : true
+show_related      : false
 show_sociallinks  : true
 show_tags         : false
 show_categories   : false
-show_bottomnavs   : false
+show_bottomnavs   : true
 show_author       : true
 
 ---
