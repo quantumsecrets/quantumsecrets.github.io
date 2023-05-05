@@ -6,7 +6,7 @@ layout  : landingpage
 title   : Quantum Secrets
 subtitle : A revolutionary company that came out of nowhere
 header_type : splash
-og_image                :     /assets/img/quantumsecrets_b_300.png #default[author.avatar (see below)] or [github-avatar]
+og_image   : '/assets/img/quantumsecrets_screenshot.png' #default[author.avatar (see below)] or [github-avatar]
 header_img : 'https://images.unsplash.com/photo-1682754089073-59443f56234f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80'
 photo_credit_name : "Kristaps Ungurs"
 photo_credit_url : "https://unsplash.com/@kristapsungurs"
