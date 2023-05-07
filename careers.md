@@ -20,7 +20,7 @@ As a member of our team, you'll have the opportunity to work alongside some of t
 
 <h3 class="display-5">Exciting Work</h3>
 
-You'll work that supports cutting-edge research and development projects that push the limits of quantum mechanics. Most of the time it'll really be somebody else doing the actual quantum work, but the conversations you'll have with them are still pretty cool.
+You'll work on and support cutting-edge research and development projects that push the limits of quantum mechanics. Most of the time it'll really be somebody else doing the actual quantum work, but the conversations you'll have with them are still pretty cool.
 
 <br><br>
 
